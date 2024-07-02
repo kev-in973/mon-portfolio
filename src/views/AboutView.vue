@@ -93,8 +93,7 @@
       </section>
     </main>
     <footer>
-      <a href="https://www.linkedin.com/feed/"><img src="images/image in.jpg" alt="image linkedin"></a>
-      <a href="https://github.com/"><img src="images/image git.jpg" alt="image github"></a>
+      
     </footer>
   </div>
 </template>
