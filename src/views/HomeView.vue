@@ -2,8 +2,8 @@
   <div>
     <section id="presentation">
       <h1>Présentation</h1>
-      <p>Bonjour, je m'appelle [Votre Nom Prénom].</p>
-      <p>Je suis un développeur web passionné avec [X] années d'expérience.</p>
+      <p>Bonjour, je m'appelle Kevin Ladouceur .</p>
+      <p>Je suis un jeune rookie développeur web passionné par le digital, la création de site, et tous ce qui touche le monde du numérique.</p>
     </section>
     <section id="creations">
       <h1>Créations</h1>
@@ -47,7 +47,7 @@ export default {
         { 
           id: 1, 
           title: 'Création 1', 
-          image: require('@/assets/Ant-man.png'), 
+          image: require('@/assets/numero-1.png'), 
           date: '01/01/2021', 
           technologies: ['HTML', 'CSS', 'JavaScript'], 
           link: 'https://www.example.com', 
@@ -57,14 +57,27 @@ export default {
         { 
           id: 2, 
           title: 'Création 2', 
-          image: require('@/assets/Ant-man.png'), 
+          image: require('@/assets/numero-2.png'), 
           date: '01/06/2021', 
           technologies: ['Vue', 'Node.js'], 
           link: 'https://www.example2.com', 
           github: null,
           details: 'Détails de la création 2...' 
         },
-        // Ajoutez autant de créations que nécessaire
+         
+        { 
+          id: 3, 
+          title: 'Création 3', 
+          image: require('@/assets/numero-3.png'), 
+          date: '01/06/2021', 
+          technologies: ['Vue', 'Node.js'], 
+          link: 'https://www.example2.com', 
+          github: null,
+          details: 'Détails de la création 3...' 
+        },
+        
+
+        // Ajoute d'autant de créations que nécessaire
       ],
       selectedCreation: null,
       form: {
@@ -94,7 +107,7 @@ section {
 
 .creations-grid {
   display: flex;
-  gap: 1em;
+  gap: 9em;
 }
 
 .creation-item {

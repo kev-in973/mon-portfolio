@@ -1,7 +1,7 @@
 <!-- src/views/NotFound.vue -->
 <template>
     <div class="not-found">
-      <img src="@/assets/Ant-man.png" alt="404 Image" />
+      <img src="@/assets/logokevB.png" alt="404 Image" />
       <h1>404</h1>
       <p>La page que vous recherchez n'existe pas.</p>
       <router-link to="/">Retour à la page d'accueil</router-link>
